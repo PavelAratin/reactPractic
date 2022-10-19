@@ -1,0 +1,40 @@
+.users__item{
+  display: flex;
+  align-items: center;
+}
+.users__item:not(:last-child){
+  margin-bottom: 20px;
+}
+.users__img{
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-right: 5px;
+}
+.users__info{
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+.users__name{
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(32, 32, 253);
+}
+.users__email{
+  margin-top: auto;
+  color: #b6b7cf;
+}
+.users__add{
+  background-color: transparent;
+  border: none;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin-left: auto;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 0;
+}

@@ -1,0 +1,13 @@
+.users__form{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.users__input{
+  padding: 10px;
+  padding-left: 50px;
+  color: #b6b7cf;
+  font-size: 14px;
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid #b6b7cf;
+}
